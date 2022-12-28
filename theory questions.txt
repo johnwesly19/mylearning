@@ -1,0 +1,33 @@
+What is Emmet?
+    Emmet is used to write less code by populating the code snippets using small code.
+
+Difference between library and framework?
+    Library is a prewritten code used to develop web based applications without writing the code from scratch rather using the functionilty which is already available.
+
+    Framework is like a foundation upon which developers build applications for specific platforms. 
+
+What is CDN and where do we use it?
+
+    Full form of CDN is "Content Delivery Network". Actually, it is a library which can we be injected in our code in script tags.
+
+Why is react known as react?
+
+    react has been developed by facebook engineers and the frontend view will react or change as we do operations like clicking, viewing etc.
+
+What is crossorigin in script tag?
+
+    Crossorigin attribute is used to provide support for CORS, defining how the elements handles crossorigin requests, thereby enabling the CROS configuration for the elements fetched data.
+
+What is Difference between React and ReactDOM?
+
+    React is a core library and ReactDOM is actually a code used for web based development
+
+What is the Difference between react.development.js and react.production.js files via CDN?
+
+    react.development.js is used on localhost and react.production.js is a standard and preferred CDN for production
+
+What is async and defer?
+
+    async: scripts will be loaded along with rendering html and script will be executed after the completion of loading scripts and then the html will be rendered.
+
+    defer: on the other hand, defer means, scripts will be loaded along with rendering html and then script will be executed after completion of parsing html.
