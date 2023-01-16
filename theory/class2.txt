@@ -1,0 +1,64 @@
+what is NPM?
+    NPM doesn't have any abbreviation and it is a world's largest software registery.
+
+What is parcel/webpack? why do we need it?
+    parcel is a bundler which is used to create react app. we need bundler to organize and combine files into a single file.
+
+what is parcel-cache?
+    parcel-cache is created automatically when a development build is created.
+
+what is npx?
+    NPM stands for node page execute. it comes with NPM and it is a NPM runner which can execute any package from NPM registry without even installing it.
+
+what is Difference between dependencies and devdependencies?
+
+    dependencies are created for global and devdependencies are created for local
+
+what is tree shaking?
+        tree shaking is a term which is used for describing the removal of dead code.
+
+what is hot moduel replacement?
+        page will be refreshed once the file is changed and saved. File watched alogirithm will keep a track of each and every line of code including node modules.
+
+List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+        1. minify
+        2. HMR (hot module replacement)
+        3. creates server
+        4. changes port number
+        5. caching 
+        6. bundling
+        7. compressing
+        8. https on dev
+        10. file watcher alogirithm
+
+        HMR wil add modules or remove modules without reloading the entire page.
+
+        File watcher is a wonderfull algorithm developed using C++ which will keep track of each and every line of code to identify the changes.
+
+        parcel will minify the code thus making the app fast
+
+        parcel will create a server for us.
+
+what is .gitignore?
+        gitignore is used to specify which files should be ignored and not to commit.
+
+        cache files, log files can be added to gitignore
+
+What is the difference between `package.json` and `package-lock.json`
+        package.json will have dependecies and they can be upgraded or updated.
+
+        package-lock.json will have save the first version of the dependecies and it won't be changed in this file.
+
+Why should I not modify `package-lock.json`?
+        because, we it will save the first version of the dependency and if we change it we can't get it reverted back.
+
+- What is `node_modules` ? Is it a good idea to push that on git?
+        Node_modules are nothing but the code for the specific dependency NPM and it can't be pushed to git due to its heavy size and we can get them installed on server using dependecies (package.json)
+
+What is the `dist` folder?
+        dist folder is a minimised code of source code.
+
+What is `browserlists`?
+        browserlists is a a NPM which will allow old browsers to be supported.
+
