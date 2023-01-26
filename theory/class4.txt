@@ -1,0 +1,41 @@
+Is JSX mandatory for react?
+    No, JSX is not mandatory for react, you can use react without using JSX.
+    each JSX element is just a syntactic sugar for calling react.
+
+Is ES6 mandatory for react?
+    no, it is not mandatory. we can use create-react-class module.
+
+{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent> </TitleComponent>} in JSX
+    first one is a react element
+    second one is a functional component
+    third one is also a functional component
+
+How can I write commnents in JSX?
+    JSX comments begins and ends with curly braces {}, followed by forward slash and asterisk.
+
+What is <React.Fragment></React.Fragment> and <> </> ?
+    Both are same.
+    fragments will let us group a list of children without adding extra notes to the DOM.
+
+What is Virtual DOM?
+    Virtual DOM is a virtual representation of a UI is kept in memory and synced with real DOM using a library called ReactDOM.
+
+What is Reconciliation in React?
+    react uses a diff alogorithm to differentiate between the trees and update the specific part only
+
+What is react fiber?
+    react fiber is a new reimplementation of react's core alogorithm
+
+Why do we need keys in React? When do we need keys in React?
+    We need keys to avoid re-rendering of whole thing. When a key is specified, only that node will be updated.
+    we need keys when we are updating similar kind of elements like 10 div tags updating at a time.
+    react will be confused which part to update, so it will re-render everything.
+
+Can we use index as keys in React?
+     Yes, we can use index a key in react but a unique key is recommended way.
+
+What is props in react? ways to 
+    props is nothing but properties which will be passed from one component to another
+
+What is Config Driven UI?
+    UI will be changed accoring to the config which is set in the backend.
