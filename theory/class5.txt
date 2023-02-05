@@ -1,0 +1,14 @@
+What is the difference between Named export, Default export and * as export?
+    Named export- we will write export for individual component or element and should be imported using curley braces 
+    Default export- if we write default, then we can only export one component and can import without any curly braces.
+    * as export- we can import any component if we use "* as name" and we will call the component using the name.component_name.
+
+What is the importance of config.js file?
+    If we have some constant static data and that we don't change and use repeatedly in our hole code, we will write it in the config.js or constants.js file.
+
+What are react hooks?
+    React hooks are normal javascript function which are used to isolate the reusable part using functional components.
+
+Why do we use react state hook?
+    We call this use state inside a functional component to add some local state to it. React will preserve the state between the re-renders. Usestate returns a pair, a current value and a function to update the current value.
+
