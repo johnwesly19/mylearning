@@ -2,10 +2,9 @@
   "name": "mylearning",
   "version": "1.0.0",
   "description": "namasthe react",
-  
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,15 +19,14 @@
   "homepage": "https://github.com/johnwesly19/mylearning#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-shimmer-effects": "^1.0.2"
   },
   "devDependencies": {
     "parcel": "^2.8.2",
     "process": "^0.11.10"
   },
-
   "browsersList": [
     "Last 2 Chrome versions"
   ]
- 
 }

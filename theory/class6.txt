@@ -1,0 +1,54 @@
+What is a Micro Service?
+    Micro services are the architectural and organizational way to software development where software is divided into individual small servies that are connected via well defined APIs.
+
+What is a monolith architecture?
+    Monolith architecture is like a container where all the software components of an app are tightly coupled and each component is full dependent on another.
+
+What is the Difference between monolith and Micro services architecture?
+    There are so many differences like..
+    technology-> as everything binded with another in monolith, its hard to change technology or framework but in micro servies, its possible.
+    build time-> it will take time while building in monolith and at other hand, micro services won't take much time
+    modifications-> have to deploy whole application in monolith, but mircro services won't need that
+    code base-> monolith uses single code base, but micro services having several code bases
+    data base-> monolith will have shared data base, but micro services can have individual database
+
+Why do we need a useEffect hook?
+    useEffect will allow us to perform side effects 
+    eg: we can call APIs    
+
+What is optional chaining?
+    optional chaining opertater(?.) is used to access an object property or call function. If the object or function having undefined or null
+    instead of throwing error, the expression will be short circuted and it will assign undefined.
+
+What is Shimmer UI?
+    Shimmer UI resembels the page's actual UI, which will be shown first before showing the actual data.
+
+What is difference between js expression and statement?
+    expression is a block of code that executes to a value and statement is a block of code that performs some action.
+
+What is conditional rendering and give a code example?
+    conditional rendering means a UI component will be rendering if a condition is satified.
+    const[isLoggedIn, setIsLoggedin]= useState(false)
+
+    if(isLoggedin)
+    <h1> <UserGreeting/> </h1>
+    else 
+    <h1> <GuestGreeting/> </h1>
+
+What is CORS?
+    Cross origin resource sharing is header based mechanism which will indicate the origins(domain, scheme or port) other then the same origin to share the resources.
+    its also have a mechanism to send the pre-flight request to the server to access the resource.
+    For security reasons, browsers will restrict the resources from cross origins.
+
+what are async and await?
+    The async function declares an async function and await will be used in the function body.
+    async and await keywords deals with asyncoronus and promise based behaviour to be over written using cleaner code avoiding the need of promise chains.
+
+What is the use of const json= await data.json()?
+    data.json() will return a promise, so we have to wait for it.
+    
+
+
+
+
+
