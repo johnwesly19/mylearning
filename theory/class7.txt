@@ -1,0 +1,25 @@
+What are various ways to add images into our app? Explain with code examples
+    We can download the image and keep it in assets folder and import it in our component as below
+    import Logo from "image.png"
+    <img src={Logo}/>
+
+    and we can use CDN 
+
+What would happen if we do console.log(useState())?
+    it will return array of undefined value and function
+
+How will useEffect behave if we do not add dependency array?
+    useEffect wil be called every time the state is changed, if we do not any dependency array.
+
+What is SPA?
+    Single Page Application is a web app implementation that loads only one document and updates the body using APIs
+    this will allow users to access the web pages without loading whole new page from the server.
+
+What is difference between client side routing and server side routing?
+    Server side routing:
+        Suppose if we click on anchor tag, it will call GET request and will fetch new page from the server to display it at the frontend.
+
+    Client side routing:
+        if we click on anchor tag, it won't call GET request to fetch it from server, using client side routing(routing library) it will be easy to load the page.
+
+

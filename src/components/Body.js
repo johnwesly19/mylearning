@@ -2,6 +2,7 @@ import RestuarentCard from "./RestuarentCard";
 import { restuarentList } from "../Constants";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import {Link} from "react-router-dom"
 
 // const searctText='Hello'
 
@@ -69,7 +70,7 @@ console.log("hello")
       <div className="restuarentcard">
         {filteredRestuarents.map((restuarent) => {
           return (
-            <RestuarentCard {...restuarent.data} key={restuarent.data.id} />
+           <Link to={"/Menupage/" + restuarent.data.id} key={restuarent.data.id} > <RestuarentCard {...restuarent.data} key={restuarent.data.id} /> </Link>
           );
         })}
       </div>
